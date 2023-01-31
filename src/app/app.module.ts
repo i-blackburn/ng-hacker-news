@@ -7,11 +7,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { TopStoriesComponent } from './components/top-stories/top-stories.component';
 import { NewStoriesComponent } from './components/new-stories/new-stories.component';
+import { TopStoriesComponent } from './components/top-stories/top-stories.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, TopStoriesComponent, NewStoriesComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    TopStoriesComponent,
+    NewStoriesComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
