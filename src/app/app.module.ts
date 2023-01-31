@@ -7,8 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { NewStoriesComponent } from './components/new-stories/new-stories.component';
-import { TopStoriesComponent } from './components/top-stories/top-stories.component';
+import { NewStoriesComponent } from './pages/new-stories/new-stories.component';
+import { TopStoriesComponent } from './pages/top-stories/top-stories.component';
 
 @NgModule({
   declarations: [
